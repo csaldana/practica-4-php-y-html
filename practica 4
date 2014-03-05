@@ -1,0 +1,70 @@
+<DOCTIPE! html>
+<html>
+<body>
+
+<?php
+$cost1=10000;
+$cost2=20000;
+$cost3=3000;
+$cost4=20;
+$cost5=20;
+$cost6=20;
+$cost7=20;
+$subtotal=$cost1 + $cost2 + $cost3 + $cost4 + $cost5 + $cost6 + $cost7;
+$iva = $subtotal * .16;
+$total = $subtotal + $iva;
+?>
+
+<table>
+<tr>
+<td> television </td>
+<td><?php echo $cost1; ?></td>
+</tr>
+
+<tr>
+<td> refrigerador </td>
+<td> <?php echo $cost2; ?></td>
+</tr>
+
+<td> silla</td>
+<td> <?php echo $cost3; ?></td>
+
+<tr>
+<td> mesa </td>
+<td> <?php echo $cost4; ?></td>
+</tr>
+
+<tr>
+<td> banco </td>
+<td> <?php echo $cost5; ?></td>
+</tr>
+
+<tr>
+<td> playera</td>
+<td> <?php echo $cost6; ?></td>
+</tr>
+
+<tr>
+<td> short </td>
+<td> <?php echo $cost7; ?></td>
+</tr>
+
+<tr>
+<td> subtotal </td>
+<td> <?php echo $subtotal; ?></td>
+</tr>
+
+<tr>
+<td> iva </td>
+<td> <?php echo  $iva; ?></td>
+</tr>
+
+<tr>
+<td> total </td>
+<td> <?php echo  $total; ?></td>
+</tr>
+
+
+</table>
+</body>
+</html>
